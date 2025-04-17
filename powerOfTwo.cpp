@@ -10,7 +10,6 @@
 
 int main() {
     int loopCounter;
-    int factorialAnswer = 1;
     std::string userNum;
 
     // get the user's number
@@ -30,10 +29,6 @@ int main() {
         } else if (userNumAsInt < 0) {
             std::cout << userNumAsInt <<
             " is not a positive integer!" << std::endl;
-
-            // Checks if userNum is a 0
-        } else if (userNumAsInt == 0) {
-            std::cout << userNumAsInt << "! = 1" << std::endl;
 
             // If none of those, calculates squares up to the users number
         } else {
